@@ -33,7 +33,7 @@ piper_sample_generator_path: "./piper-sample-generator"
 output_dir: "./my_custom_model"
 
 # The path to model used by piper_sample_generator
-generator_model: "./piper-sample-generator/models/en_US-libritts_r-medium.pt",
+generator_model: "./piper-sample-generator/models/en_US-libritts_r-medium.pt"
 
 # Min phoneme count for piper_sample_generator
 min_phoneme_count: none
