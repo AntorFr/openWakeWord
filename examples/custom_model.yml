@@ -38,6 +38,13 @@ generator_model: "./piper-sample-generator/models/en_US-libritts_r-medium.pt"
 # Min phoneme count for piper_sample_generator
 min_phoneme_count: null
 
+# Noise setting for trainning samples
+noise_scales_train:
+  - 0.98
+
+# Noise setting for testing samples
+noise_scales_test:
+  - 1.0
 
 # The directories containing Room Impulse Response recordings
 rir_paths:
